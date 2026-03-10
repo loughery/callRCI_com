@@ -1,310 +1,316 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>RCI Bathroom Remodeling Specialist | Wellsboro & Tioga County PA</title>
 
-<meta name="description" content="RCI provides bathroom remodeling and renovation services in Wellsboro, Tioga County, and surrounding Pennsylvania communities. Call Chesko at (570) 948-1480 for a free estimate.">
-<meta name="keywords" content="bathroom remodeling Wellsboro PA, bathroom remodeler Tioga County PA, bathroom renovation Wellsboro, local bathroom contractor, RCI Services, Chesko bathroom remodeling">
-<meta name="author" content="RCI Services">
+<meta name="description" content="RCI provides bathroom remodeling and renovation services in Wellsboro, Tioga County, and surrounding Pennsylvania communities. Call Bob Chesko at (570) 948-1480 for a free estimate.">
 
 <style>
+
 body{
-  margin:0;
-  font-family:Arial, Helvetica, sans-serif;
-  background:white;
-  color:#222;
-  padding-bottom:90px;
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:white;
+color:#222;
+padding-bottom:90px;
 }
 
 .container{
-  max-width:700px;
-  margin:auto;
-  text-align:center;
-  padding:20px;
-}
-
-.logo{
-  max-width:320px;
-  width:100%;
-  height:auto;
-  display:block;
-  margin:0 auto 10px auto;
+max-width:700px;
+margin:auto;
+text-align:center;
+padding:20px;
 }
 
 .estimates{
-  font-size:22px;
-  font-weight:bold;
-  margin-bottom:10px;
+font-size:22px;
+font-weight:bold;
+margin-bottom:10px;
 }
 
 .tagline{
-  font-size:26px;
-  font-weight:bold;
-  margin-bottom:15px;
+font-size:26px;
+font-weight:bold;
+margin-bottom:15px;
 }
 
 .phone{
-  font-size:40px;
-  font-weight:bold;
-  color:#1f4f8f;
-  margin-bottom:10px;
+font-size:40px;
+font-weight:bold;
+color:#1f4f8f;
+margin-bottom:10px;
 }
 
 .call-button{
-  display:inline-block;
-  background:#28a745;
-  color:white;
-  padding:16px 30px;
-  font-size:22px;
-  font-weight:bold;
-  border-radius:8px;
-  text-decoration:none;
-  margin-bottom:30px;
+display:inline-block;
+background:#28a745;
+color:white;
+padding:16px 30px;
+font-size:22px;
+font-weight:bold;
+border-radius:8px;
+text-decoration:none;
+margin-bottom:25px;
 }
 
 .call-button:hover{
-  background:#1f7f37;
+background:#1f7f37;
+}
+
+.logo-container{
+position:relative;
+display:inline-block;
+}
+
+.logo{
+max-width:320px;
+width:100%;
+display:block;
+margin:auto;
+}
+
+.logo-caption{
+opacity:0;
+font-size:18px;
+font-weight:bold;
+margin-top:8px;
+transition:opacity 0.4s ease;
+}
+
+.logo-container:hover .logo-caption{
+opacity:1;
 }
 
 .section-title{
-  font-size:24px;
-  font-weight:bold;
-  margin:40px 0 20px 0;
+font-size:24px;
+font-weight:bold;
+margin:40px 0 20px 0;
 }
 
 p{
-  max-width:600px;
-  margin:auto;
-  font-size:18px;
-  line-height:1.5;
+max-width:600px;
+margin:auto;
+font-size:18px;
+line-height:1.5;
 }
 
 .service-area{
-  max-width:620px;
-  margin:20px auto 0 auto;
-  font-size:18px;
-  line-height:1.7;
-}
-
-.service-area strong{
-  color:#1f4f8f;
+max-width:620px;
+margin:auto;
+font-size:18px;
+line-height:1.7;
 }
 
 .gallery{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:15px;
-  margin-top:20px;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:15px;
+margin-top:20px;
 }
 
 .gallery img{
-  width:100%;
-  border-radius:6px;
+width:100%;
+border-radius:6px;
 }
 
 .caption{
-  font-weight:bold;
-  margin-top:5px;
+font-weight:bold;
+margin-top:5px;
 }
 
 .testimonial{
-  font-style:italic;
-  margin-top:15px;
+font-style:italic;
+margin-top:15px;
 }
 
 .testimonial-name{
-  font-weight:bold;
-  margin-bottom:15px;
+font-weight:bold;
+margin-bottom:15px;
 }
 
 .seo-block{
-  max-width:640px;
-  margin:40px auto 0 auto;
-  padding:18px;
-  border:1px solid #d8d8d8;
-  border-radius:10px;
-  background:#fafafa;
-  text-align:left;
-}
-
-.seo-block h3{
-  margin-top:0;
-  font-size:22px;
-  text-align:center;
-}
-
-.seo-block p{
-  max-width:none;
-  margin:0;
-  font-size:17px;
+max-width:640px;
+margin:40px auto;
+padding:18px;
+border:1px solid #d8d8d8;
+border-radius:10px;
+background:#fafafa;
+text-align:left;
 }
 
 .sticky-call-bar{
-  position:fixed;
-  bottom:0;
-  left:0;
-  width:100%;
-  background:#1f4f8f;
-  color:white;
-  text-align:center;
-  padding:14px 10px;
-  z-index:9999;
-  box-shadow:0 -2px 10px rgba(0,0,0,0.15);
+position:fixed;
+bottom:0;
+left:0;
+width:100%;
+background:#1f4f8f;
+color:white;
+text-align:center;
+padding:14px 10px;
+z-index:9999;
+box-shadow:0 -2px 10px rgba(0,0,0,0.15);
 }
 
 .sticky-call-bar a{
-  color:white;
-  text-decoration:none;
-  font-size:24px;
-  font-weight:bold;
-  display:block;
+color:white;
+text-decoration:none;
+font-size:24px;
+font-weight:bold;
+display:block;
 }
 
 @media(max-width:600px){
-  .gallery{
-    grid-template-columns:1fr;
-  }
 
-  .phone{
-    font-size:32px;
-  }
-
-  .sticky-call-bar a{
-    font-size:20px;
-  }
-
-  .tagline{
-    font-size:22px;
-  }
-
-  .estimates{
-    font-size:20px;
-  }
+.gallery{
+grid-template-columns:1fr;
 }
+
+.phone{
+font-size:32px;
+}
+
+.sticky-call-bar a{
+font-size:20px;
+}
+
+}
+
 </style>
+
 </head>
 
 <body>
 
 <div class="container">
 
-  <img src="bobcolor.png" class="logo" alt="RCI Services logo">
+<div class="estimates">
+Free Bathroom Remodeling Estimates
+</div>
 
-  <div class="estimates">
-    Free Bathroom Remodeling Estimates
-  </div>
+<div class="tagline">
+Bathroom Remodeling Specialist
+</div>
 
-  <div class="tagline">
-    Bathroom Remodeling Specialist
-  </div>
+<div class="phone">
+Call RCI at (570) 948-1480
+</div>
 
-  <div class="phone">
-    Call RCI at (570) 948-1480
-  </div>
+<a class="call-button" href="tel:15709481480">
+Tap to Call
+</a>
 
-  <a class="call-button" href="tel:15709481480">
-    Tap to Call
-  </a>
+<div class="logo-container">
 
-  <div class="section-title">
-    Trusted Local Bathroom Remodeling
-  </div>
+<img src="bobcolor.png" class="logo" alt="RCI Services">
 
-  <p>
-    RCI has been helping homeowners improve their homes with reliable
-    renovation and repair services. Known locally for quality work and
-    honest service, RCI specializes in bathroom remodeling and practical
-    home improvements.
-  </p>
+<div class="logo-caption">
+Bob Chesko – Owner
+</div>
 
-  <br>
+</div>
 
-  <div style="font-size:20px;font-weight:bold;">
-    Call Chesko Directly
-  </div>
+<div class="section-title">
+Trusted Local Bathroom Remodeling
+</div>
 
-  <div style="font-size:26px;color:#1f4f8f;font-weight:bold;">
-    (570) 948-1480
-  </div>
+<p>
+RCI has been helping homeowners improve their homes with reliable
+renovation and repair services. Known locally for quality work and
+honest service, RCI specializes in bathroom remodeling and practical
+home improvements.
+</p>
 
-  <div class="section-title">
-    Serving Wellsboro and Tioga County
-  </div>
+<br>
 
-  <div class="service-area">
-    <strong>RCI Services</strong> provides bathroom remodeling, bathroom renovation,
-    repair work, and home improvement services for homeowners in
-    <strong>Wellsboro, Tioga County, and nearby Pennsylvania communities</strong>.
-    If you are looking for a trusted local contractor for a new shower,
-    tub replacement, vanity installation, flooring, fixtures, or a full
-    bathroom remodel, call RCI for dependable local service.
-  </div>
+<div style="font-size:20px;font-weight:bold;">
+Call Bob Chesko Directly
+</div>
 
-  <div class="section-title">
-    What Homeowners Say
-  </div>
+<div style="font-size:26px;color:#1f4f8f;font-weight:bold;">
+(570) 948-1480
+</div>
 
-  <p class="testimonial">
-    “RCI remodeled our bathroom and the workmanship was excellent.
-    Reliable, honest, and easy to work with.”
-  </p>
+<div class="section-title">
+Serving Wellsboro and Tioga County
+</div>
 
-  <div class="testimonial-name">
-    — Wellsboro Homeowner
-  </div>
+<div class="service-area">
+RCI Services provides bathroom remodeling, renovation, and repair work
+for homeowners in Wellsboro, Tioga County, and surrounding Pennsylvania
+communities.
+</div>
 
-  <p class="testimonial">
-    “Chesko from RCI did exactly what he promised. Our new bathroom
-    looks fantastic.”
-  </p>
+<div class="section-title">
+What Homeowners Say
+</div>
 
-  <div class="testimonial-name">
-    — Tioga County Homeowner
-  </div>
+<p class="testimonial">
+“RCI remodeled our bathroom and the workmanship was excellent.
+Reliable, honest, and easy to work with.”
+</p>
 
-  <div class="section-title">
-    Recent Bathroom Transformations
-  </div>
+<div class="testimonial-name">
+— Wellsboro Homeowner
+</div>
 
-  <div class="gallery">
-    <div>
-      <img src="before1.jpg" alt="Bathroom before remodel">
-      <div class="caption">Before</div>
-    </div>
+<p class="testimonial">
+“Chesko from RCI did exactly what he promised. Our new bathroom
+looks fantastic.”
+</p>
 
-    <div>
-      <img src="after1.jpg" alt="Bathroom after remodel">
-      <div class="caption">After</div>
-    </div>
+<div class="testimonial-name">
+— Tioga County Homeowner
+</div>
 
-    <div>
-      <img src="before2.jpg" alt="Bathroom before renovation">
-      <div class="caption">Before</div>
-    </div>
+<div class="section-title">
+Recent Bathroom Transformations
+</div>
 
-    <div>
-      <img src="after2.jpg" alt="Bathroom after renovation">
-      <div class="caption">After</div>
-    </div>
-  </div>
+<div class="gallery">
 
-  <div class="seo-block">
-    <h3>Local Bathroom Remodeling Services</h3>
-    <p>
-      RCI is a local bathroom remodeling contractor serving Wellsboro, Tioga County,
-      and surrounding areas. Services may include bathroom renovation, shower updates,
-      tub replacement, fixture installation, vanity replacement, flooring, and general
-      bathroom repair work for homeowners who want dependable, local service.
-    </p>
-  </div>
+<div>
+<img src="before1.jpg">
+<div class="caption">Before</div>
+</div>
+
+<div>
+<img src="after1.jpg">
+<div class="caption">After</div>
+</div>
+
+<div>
+<img src="before2.jpg">
+<div class="caption">Before</div>
+</div>
+
+<div>
+<img src="after2.jpg">
+<div class="caption">After</div>
+</div>
+
+</div>
+
+<div class="seo-block">
+
+<h3>Local Bathroom Remodeling Services</h3>
+
+<p>
+RCI is a local bathroom remodeling contractor serving Wellsboro,
+Tioga County, and surrounding areas. Services include bathroom
+renovation, shower updates, tub replacement, fixture installation,
+vanity replacement, flooring, and bathroom repair work.
+</p>
+
+</div>
 
 </div>
 
 <div class="sticky-call-bar">
-  <a href="tel:15709481480">Call RCI Now: (570) 948-1480</a>
+<a href="tel:15709481480">Call RCI Now: (570) 948-1480</a>
 </div>
 
 </body>
