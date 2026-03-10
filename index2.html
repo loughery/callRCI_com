@@ -1,341 +1,350 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RCI Bathroom Remodeling Specialist | Wellsboro PA</title>
-  <meta
-    name="description"
-    content="RCI bathroom remodeling services in Wellsboro and Tioga County PA. Call Bob Chesko at (570) 948-1480 for free estimates."
-  />
-  <style>
-    body{
-      margin:0;
-      font-family:Arial, Helvetica, sans-serif;
-      background:#f8f8f8;
-      color:#222;
-      padding-bottom:95px;
-    }
 
-    .header{
-      background:#1f4f8f;
-      color:#fff;
-      padding:18px 20px;
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-      gap:16px;
-      font-weight:bold;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    .header-title{
-      font-size:clamp(18px, 3.8vw, 26px);
-      white-space:nowrap;
-    }
+<title>RCI Bathroom Remodeling | Wellsboro PA</title>
 
-    .header-phone{
-      font-size:clamp(16px, 3vw, 20px);
-      white-space:nowrap;
-    }
+<meta name="description"
+content="RCI bathroom remodeling services in Wellsboro and Tioga County PA. Call Bob Chesko at (570) 948-1480 for free estimates.">
 
-    .container{
-      max-width:760px;
-      margin:0 auto;
-      text-align:center;
-      padding:24px 20px 40px;
-      background:#fff;
-    }
+<style>
 
-    .estimates{
-      font-size:clamp(16px, 3.5vw, 22px);
-      font-weight:bold;
-      margin-bottom:10px;
-      white-space:nowrap;
-    }
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#f6f6f6;
+color:#222;
+padding-bottom:90px;
+}
 
-    .tagline{
-      font-size:clamp(18px, 4vw, 26px);
-      font-weight:bold;
-      margin-bottom:14px;
-      white-space:nowrap;
-    }
+/* HEADER */
 
-    .phone{
-      font-size:clamp(24px, 6vw, 40px);
-      font-weight:bold;
-      color:#1f4f8f;
-      margin-bottom:10px;
-      white-space:nowrap;
-    }
+.header{
+background:#1f4f8f;
+color:white;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 24px;
+font-weight:bold;
+}
 
-    .call-button{
-      display:block;
-      width:fit-content;
-      margin:22px auto 26px;
-      padding:16px 30px;
-      background:#28a745;
-      color:#fff;
-      text-decoration:none;
-      font-size:clamp(16px, 4vw, 22px);
-      font-weight:bold;
-      border-radius:8px;
-      white-space:nowrap;
-      box-shadow:0 6px 18px rgba(0,0,0,0.15);
-    }
+.header-title{
+font-size:clamp(18px,3.5vw,26px);
+white-space:nowrap;
+}
 
-    .call-button:hover{
-      background:#1f7f37;
-    }
+.header-phone{
+font-size:clamp(16px,3vw,20px);
+white-space:nowrap;
+}
 
-    .logo-container{
-      display:block;
-      width:fit-content;
-      margin:10px auto 24px;
-      text-align:center;
-    }
+/* PAGE CONTAINER */
 
-    .logo{
-      display:block;
-      width:min(100%, 420px);
-      height:auto;
-      margin:0 auto;
-    }
+.container{
+max-width:760px;
+margin:auto;
+background:white;
+padding:30px;
+text-align:center;
+}
 
-    .logo-caption{
-      opacity:0;
-      transition:opacity .35s ease;
-      font-size:18px;
-      font-weight:bold;
-      margin-top:8px;
-    }
+/* HEADLINES */
 
-    .logo-container:hover .logo-caption{
-      opacity:1;
-    }
+.estimates{
+font-size:clamp(16px,3.5vw,22px);
+font-weight:bold;
+white-space:nowrap;
+margin-bottom:8px;
+}
 
-    .section-title{
-      font-size:24px;
-      font-weight:bold;
-      margin:36px 0 18px;
-    }
+.tagline{
+font-size:clamp(18px,4vw,26px);
+font-weight:bold;
+white-space:nowrap;
+margin-bottom:12px;
+}
 
-    p{
-      max-width:640px;
-      margin:0 auto;
-      font-size:18px;
-      line-height:1.55;
-    }
+.phone{
+font-size:clamp(26px,6vw,40px);
+color:#1f4f8f;
+font-weight:bold;
+white-space:nowrap;
+margin-bottom:12px;
+}
 
-    .testimonial{
-      font-style:italic;
-      margin-top:14px;
-    }
+/* CALL BUTTON */
 
-    .testimonial-name{
-      font-weight:bold;
-      margin:8px 0 14px;
-    }
+.call-button{
+display:block;
+margin:20px auto 30px;
+background:#28a745;
+color:white;
+text-decoration:none;
+font-size:clamp(16px,4vw,22px);
+padding:16px 28px;
+border-radius:8px;
+font-weight:bold;
+width:fit-content;
+box-shadow:0 6px 16px rgba(0,0,0,0.15);
+}
 
-    .gallery{
-      display:grid;
-      grid-template-columns:1fr 1fr;
-      gap:16px;
-      margin-top:20px;
-    }
+.call-button:hover{
+background:#1f7f37;
+}
 
-    .gallery-item img{
-      width:100%;
-      height:240px;
-      object-fit:cover;
-      border-radius:8px;
-      display:block;
-      box-shadow:0 4px 14px rgba(0,0,0,0.12);
-    }
+/* LOGO */
 
-    .caption{
-      margin-top:6px;
-      font-weight:bold;
-    }
+.logo{
+max-width:420px;
+width:100%;
+display:block;
+margin:auto;
+}
 
-    .seo-block{
-      max-width:660px;
-      margin:36px auto 0;
-      padding:18px;
-      border:1px solid #d8d8d8;
-      border-radius:10px;
-      background:#fafafa;
-      text-align:left;
-    }
+/* OWNER NAME HOVER */
 
-    .seo-block h3{
-      margin:0 0 10px;
-      text-align:center;
-      font-size:22px;
-    }
+.logo-container{
+margin-bottom:25px;
+}
 
-    .seo-block p{
-      max-width:none;
-      margin:0;
-      font-size:17px;
-    }
+.logo-caption{
+opacity:0;
+transition:.3s;
+font-weight:bold;
+margin-top:8px;
+}
 
-    .sticky-call-bar{
-      position:fixed;
-      left:0;
-      bottom:0;
-      width:100%;
-      background:#1f4f8f;
-      color:#fff;
-      text-align:center;
-      padding:14px 10px;
-      z-index:9999;
-      box-shadow:0 -2px 10px rgba(0,0,0,0.15);
-    }
+.logo-container:hover .logo-caption{
+opacity:1;
+}
 
-    .sticky-call-bar a{
-      color:#fff;
-      text-decoration:none;
-      font-size:clamp(18px, 4vw, 24px);
-      font-weight:bold;
-      white-space:nowrap;
-      display:block;
-    }
+/* SECTIONS */
 
-    .floating-call-button{
-      position:fixed;
-      right:18px;
-      bottom:78px;
-      width:64px;
-      height:64px;
-      border-radius:50%;
-      background:#28a745;
-      color:#fff;
-      text-decoration:none;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      font-size:30px;
-      box-shadow:0 8px 20px rgba(0,0,0,0.25);
-      border:3px solid #fff;
-      z-index:10000;
-    }
+.section-title{
+font-size:24px;
+font-weight:bold;
+margin:40px 0 18px;
+}
 
-    .floating-call-button:hover{
-      background:#1f7f37;
-    }
+p{
+max-width:640px;
+margin:auto;
+font-size:18px;
+line-height:1.6;
+}
 
-    @media (max-width: 700px){
-      .header{
-        flex-direction:column;
-        text-align:center;
-      }
+/* TESTIMONIAL */
 
-      .gallery{
-        grid-template-columns:1fr;
-      }
+.testimonial{
+font-style:italic;
+margin-top:14px;
+}
 
-      .gallery-item img{
-        height:230px;
-      }
+.testimonial-name{
+font-weight:bold;
+margin-bottom:14px;
+}
 
-      .floating-call-button{
-        width:58px;
-        height:58px;
-        font-size:26px;
-        right:14px;
-        bottom:74px;
-      }
-    }
-  </style>
+/* GALLERY */
+
+.gallery{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:16px;
+margin-top:20px;
+}
+
+.gallery img{
+width:100%;
+height:240px;
+object-fit:cover;
+border-radius:8px;
+}
+
+.caption{
+font-weight:bold;
+margin-top:6px;
+}
+
+/* FLOATING CALL BUTTON */
+
+.floating-call{
+position:fixed;
+right:18px;
+bottom:80px;
+background:#28a745;
+color:white;
+width:64px;
+height:64px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:30px;
+text-decoration:none;
+box-shadow:0 8px 20px rgba(0,0,0,0.25);
+border:3px solid white;
+}
+
+/* STICKY CALL BAR */
+
+.sticky-call{
+position:fixed;
+bottom:0;
+left:0;
+width:100%;
+background:#1f4f8f;
+color:white;
+text-align:center;
+padding:14px;
+}
+
+.sticky-call a{
+color:white;
+font-weight:bold;
+text-decoration:none;
+font-size:clamp(18px,4vw,24px);
+}
+
+/* MOBILE */
+
+@media(max-width:700px){
+
+.gallery{
+grid-template-columns:1fr;
+}
+
+.header{
+flex-direction:column;
+text-align:center;
+}
+
+}
+
+</style>
+
 </head>
+
 <body>
 
-  <div class="header">
-    <div class="header-title">RCI Renovation &amp; Repair Services</div>
-    <div class="header-phone">Call (570) 948-1480</div>
-  </div>
+<div class="header">
 
-  <div class="container">
+<div class="header-title">
+RCI Renovation & Repair Services
+</div>
 
-    <div class="estimates">Free Bathroom Remodeling Estimates</div>
+<div class="header-phone">
+Call (570) 948-1480
+</div>
 
-    <div class="tagline">Bathroom Remodeling Specialist</div>
+</div>
 
-    <div class="phone">Call RCI at (570) 948-1480</div>
+<div class="container">
 
-    <a class="call-button" href="tel:15709481480">Tap to Call</a>
+<div class="estimates">
+Free Bathroom Remodeling Estimates
+</div>
 
-    <div class="logo-container">
-      <img src="rci-logo.png" class="logo" alt="RCI Renovation and Repair Services logo">
-      <div class="logo-caption">Bob Chesko – Owner</div>
-    </div>
+<div class="tagline">
+Bathroom Remodeling Specialist
+</div>
 
-    <div class="section-title">Trusted Local Bathroom Remodeling</div>
+<div class="phone">
+Call RCI at (570) 948-1480
+</div>
 
-    <p>
-      RCI has been helping homeowners improve their homes with reliable renovation
-      and repair services. Known locally for quality work and honest service,
-      RCI specializes in bathroom remodeling and practical home improvements.
-    </p>
+<a class="call-button" href="tel:15709481480">
+Tap to Call
+</a>
 
-    <div class="section-title">What Homeowners Say</div>
+<div class="logo-container">
 
-    <p class="testimonial">
-      “RCI remodeled our bathroom and the workmanship was excellent.
-      Reliable, honest, and easy to work with.”
-    </p>
+<img src="rci-logo.png" class="logo"
+alt="RCI Renovation and Repair Services">
 
-    <div class="testimonial-name">— Wellsboro Homeowner</div>
+<div class="logo-caption">
+Bob Chesko – Owner
+</div>
 
-    <p class="testimonial">
-      “Chesko from RCI did exactly what he promised.
-      Our new bathroom looks fantastic.”
-    </p>
+</div>
 
-    <div class="testimonial-name">— Tioga County Homeowner</div>
+<div class="section-title">
+Trusted Local Bathroom Remodeling
+</div>
 
-    <div class="section-title">Recent Bathroom Transformations</div>
+<p>
+RCI has been helping homeowners improve their homes with reliable
+renovation and repair services. Known locally for quality work
+and honest service, RCI specializes in bathroom remodeling and
+practical home improvements.
+</p>
 
-    <div class="gallery">
-      <div class="gallery-item">
-        <img src="before1.jpg" alt="Bathroom before remodel 1">
-        <div class="caption">Before</div>
-      </div>
+<div class="section-title">
+What Homeowners Say
+</div>
 
-      <div class="gallery-item">
-        <img src="after1.jpg" alt="Bathroom after remodel 1">
-        <div class="caption">After</div>
-      </div>
+<p class="testimonial">
+“RCI remodeled our bathroom and the workmanship was excellent.
+Reliable, honest, and easy to work with.”
+</p>
 
-      <div class="gallery-item">
-        <img src="before2.jpg" alt="Bathroom before remodel 2">
-        <div class="caption">Before</div>
-      </div>
+<div class="testimonial-name">
+— Wellsboro Homeowner
+</div>
 
-      <div class="gallery-item">
-        <img src="after2.jpg" alt="Bathroom after remodel 2">
-        <div class="caption">After</div>
-      </div>
-    </div>
+<p class="testimonial">
+“Chesko from RCI did exactly what he promised.
+Our new bathroom looks fantastic.”
+</p>
 
-    <div class="seo-block">
-      <h3>Local Bathroom Remodeling Services</h3>
-      <p>
-        RCI is a local bathroom remodeling contractor serving Wellsboro,
-        Tioga County, and surrounding Pennsylvania communities.
-        Services include bathroom renovation, shower updates,
-        tub replacement, fixture installation, flooring,
-        vanity replacement, and bathroom repair work.
-      </p>
-    </div>
+<div class="testimonial-name">
+— Tioga County Homeowner
+</div>
 
-  </div>
+<div class="section-title">
+Recent Bathroom Transformations
+</div>
 
-  <a class="floating-call-button" href="tel:15709481480" aria-label="Call RCI now">☎</a>
+<div class="gallery">
 
-  <div class="sticky-call-bar">
-    <a href="tel:15709481480">Call RCI Now: (570) 948-1480</a>
-  </div>
+<div>
+<img src="before1.jpeg">
+<div class="caption">Before</div>
+</div>
+
+<div>
+<img src="after1.jpg">
+<div class="caption">After</div>
+</div>
+
+<div>
+<img src="before2.jpeg">
+<div class="caption">Before</div>
+</div>
+
+<div>
+<img src="after2.jpg">
+<div class="caption">After</div>
+</div>
+
+</div>
+
+</div>
+
+<a class="floating-call" href="tel:15709481480">
+☎
+</a>
+
+<div class="sticky-call">
+<a href="tel:15709481480">
+Call RCI Now: (570) 948-1480
+</a>
+</div>
 
 </body>
 </html>
